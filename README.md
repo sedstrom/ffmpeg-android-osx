@@ -1,3 +1,5 @@
+Small adjustments to make build possible on OSX. Verified on OSX 10.11.1.
+
 [FFmpeg-Android](http://hiteshsondhi88.github.io/ffmpeg-android/) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FFmpeg--Android-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/925)
 ==============
 
@@ -16,7 +18,15 @@ Instructions
 * Set environment variable
   1. export ANDROID_NDK={Android NDK Base Path}
 * Run following commands to compile ffmpeg
-  1. sudo apt-get --quiet --yes install build-essential git autoconf libtool pkg-config gperf gettext yasm
+  1. Somehow install (Most are available in Homebrew) :
+    - build-essential 
+    - git 
+    - autoconf 
+    - libtool 
+    - pkg-config 
+    - gperf 
+    - gettext 
+    - yasm
   2. ./init_update_libs.sh
   3. ./android_build.sh
 * To update submodules and libraries you can use ./init_update_libs.sh command
