@@ -32,7 +32,6 @@ make clean
 --disable-debug \
 --disable-ffserver \
 --enable-version3 \
---enable-hardcoded-tables \
 --disable-ffplay \
 --disable-ffprobe \
 --enable-gpl \
